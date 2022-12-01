@@ -41,9 +41,23 @@ function sayHello(input){
 
 
 
-function isFive (input){
-    if(input == 5){
-        return true
-    }
-    else return false
+function isFive(input){
+    return input == 5;
+}
+
+
+function isEven(value){
+    return value % 2 === 0;
+}
+
+
+function isVowel(input){
+return input === `a` || input === `e` || input === `i` || input === `o` || input === `u` || input === `A` || input === `E` || input === `I` || input === `O` || input === `U`;
+}
+
+
+
+function add(input1 , input2){
+    return (parseInt(input1) + parseInt(input2))
+
 }
